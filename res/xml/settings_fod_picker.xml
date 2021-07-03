@@ -20,6 +20,15 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/fod_icon_picker_title">
 
+    <!-- FOD pressed color -->
+    <com.sakura.settings.preferences.SystemSettingListPreference
+        android:key="fod_color"
+        android:title="@string/fod_pressed_color_title"
+        android:summary="%s"
+        android:entries="@array/fod_pressed_color_entries"
+        android:entryValues="@array/fod_pressed_color_values"
+        android:defaultValue="0" />
+
     <!-- Preview -->
     <com.sakura.settings.preferences.FODIconPicker
         android:key="fod_icon"
