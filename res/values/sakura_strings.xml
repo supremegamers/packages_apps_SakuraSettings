@@ -299,10 +299,6 @@
     <string name="unit_milliseconds">milliseconds</string>
     <string name="unit_pixels">dp</string>
 
-    <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-    <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
-
     <!-- Heads up -->
     <string name="heads_up_notifications">Heads up</string>
     <string name="heads_up_summary">Enable/Disable pop up notifications and control headsups</string>    
@@ -574,5 +570,4 @@
     <!-- Display lock icon on lockscreen -->
     <string name="lockscreen_lock_icon_title">Lock icon</string>
     <string name="lockscreen_lock_icon_summary">Display lock icon on the lockscreen</string>
-
 </resources>
