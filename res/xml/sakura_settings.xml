@@ -87,14 +87,6 @@
             android:fragment="com.sakura.settings.fragments.PartsSettings"
             android:icon="@drawable/ic_settings_parts"/>
 
-        <!-- BoringDroid -->
-        <com.sakura.settings.preferences.CardviewPreference
-            android:key="parts_category"
-            android:title="@string/boringdroid_title"
-            android:summary="@string/sakura_boringdroid_summary_title"
-            android:fragment="org.sakura.brdroid.settings.BoringdroidSettings"
-            android:icon="@drawable/ic_boringdroid"/>            
-
         <!-- Misc -->
         <com.sakura.settings.preferences.CardviewPreference
             android:key="misc_category"
